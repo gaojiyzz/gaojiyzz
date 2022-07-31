@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main()
+{
+   int a,b,sum;//定义整数变量a,b,sum
+   printf("sum is%d",sum);//打印和sum的值
+   return 0;//返回值0
+}
