@@ -1,0 +1,25 @@
+#include<stdio.h>
+void swap1(int x,int y)       //传值函数
+{
+   int tmp=0;                 //当实参传给形参时
+   tmp=x;                     //形参只是实参的临时拷贝
+   x=y;                       //对形参的改变是不会影响实参的
+   y=tmp;
+}
+void swap2(int* pa,int* pb)   //传址函数，接收传过来的地址
+{
+   int tmp=0;
+   tmp=*pa;
+   *pa=*pb;
+   *pb=tmp;
+}
+int main()
+{
+   int a=10;
+   int b=20;
+   swap1(a,b);//调用swap1函数
+   printf("a=%d,b=%d",a,b);
+   swap2(&a,&b);//调用swap2函数，传给swap2函数地址
+   printf("a=%d,b=%d",a,b);
+   return 0;
+}
