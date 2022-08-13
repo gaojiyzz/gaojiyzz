@@ -16,4 +16,5 @@ Here are some ideas to get you started:
 -->
 我是yzz
 我在学习c语言、c#、未来会学习Java
-希望能配合这个网站学习到计算机编程的知识
+希望能借助这个网站学习到计算机编程的知识
+努力！奋斗！
