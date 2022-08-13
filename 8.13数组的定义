@@ -1,0 +1,9 @@
+#include<stdio.h>
+{
+   int arr1[10]={1,2,3};
+   char arr2[20]={'a','b','c'};
+   double arr3[50]={12,23,43};     //不完全初始化
+   
+   char[]="abcde"           //共6个字符因为还有一个\0
+   reture 0;
+}
